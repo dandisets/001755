@@ -3,31 +3,109 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
-about: []
+about:
+- identifier: pubmed:39491780
+  schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: This work was funded by the National Institutes on Drug Abuse grants
+  R01 DA057346, R01 DA045588, R01 DA060724, R21 DA057153, and K99 DA059324
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Yarotskyy, Viktor (2026) Novel voltage-dependent Cl− channels in striatal
+citation: Yarotskyy, Viktor; Contois, Liangru; Hahn, Yun-Kyung ; Nass, Sara R; Knapp,
+  Pamela E; Hauser, Kurt F (2026) Novel voltage-dependent Cl− channels in striatal
   medium spiny neurons are unrelated to ClC-1 or other known Ca2+-induced Cl− channel/transporter
   types (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001755/draft
 contributor:
 - affiliation: []
+  awardNumber: R01DA060724, R21DA057153
   email: viktor.yarotskyy@vcuhealth.org
+  identifier: 0000-0002-9247-6975
   includeInCitation: true
   name: Yarotskyy, Viktor
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:FundingAcquisition
+  - dcite:ProjectLeader
+  - dcite:Author
+  - dcite:Conceptualization
+  schemaKey: Person
+- affiliation:
+  - name: Virginia Commonwealth University
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Contois, Liangru
+  roleName:
+  - dcite:Researcher
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Virginia Commonwealth University
+    schemaKey: Affiliation
+  identifier: 0000-0001-8103-9289
+  includeInCitation: true
+  name: 'Hahn, Yun-Kyung '
+  roleName:
+  - dcite:Author
+  - dcite:Researcher
+  schemaKey: Person
+- affiliation:
+  - name: Virginia Commonwealth University
+    schemaKey: Affiliation
+  awardNumber: K99DA059324
+  identifier: 0000-0003-1868-1257
+  includeInCitation: true
+  name: Nass, Sara R
+  roleName:
+  - dcite:Researcher
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Virginia Commonwealth University
+    schemaKey: Affiliation
+  awardNumber: R01DA057346
+  identifier: 0000-0003-4364-6074
+  includeInCitation: true
+  name: Knapp, Pamela E
+  roleName:
+  - dcite:ProjectLeader
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - name: Virginia Commonwealth University
+    schemaKey: Affiliation
+  awardNumber: R01DA057346, R01DA045588, R01DA060724, R21DA057153
+  email: kurt.hauser@vcuhealth.org
+  identifier: 0000-0001-7886-0332
+  includeInCitation: true
+  name: Hauser, Kurt F
+  roleName:
+  - dcite:ProjectLeader
+  - dcite:ContactPerson
+  - dcite:Researcher
+  - dcite:DataManager
+  - dcite:Investigation
+  - dcite:Supervision
+  - dcite:Author
+  - dcite:Conceptualization
   schemaKey: Person
 dateCreated: '2026-02-24T13:50:19.270773+00:00'
-description: 'Novel voltage-dependent Cl- channels in striatal medium spiny neurons
+description: Novel voltage-dependent Cl- channels in striatal medium spiny neurons
   previously identified as ClC-1-like channels are not related to skeletal muscle-specific
   ClC-1 or other Cl- channels/transporters and, thus, represent a unique neuronal
-  Cl− channel of unknown identity. '
-ethicsApproval: []
+  Cl− channel of unknown identity
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: 'IACUC protocols #AM10161 and AM10175'
+  schemaKey: EthicsApproval
 id: DANDI:001755/draft
 identifier: DANDI:001755
 keywords:
@@ -38,12 +116,16 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001755/versions/draft/assets/
 name: Novel voltage-dependent Cl− channels in striatal medium spiny neurons are unrelated
   to ClC-1 or other known Ca2+-induced Cl− channel/transporter types
-relatedResource: []
+relatedResource:
+- name: Neuroscience Letters
+  relation: dcite:IsPublishedIn
+  schemaKey: Resource
+  url: https://www.sciencedirect.com/science/article/pii/S0304394024004117?via%3Dihub
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 studyTarget:
-- Novel voltage-dependent Cl- channels in striatal medium spiny neurons.
+- Striatal medium spiny neurons
 url: https://dandiarchive.org/dandiset/001755/draft
 version: draft
 wasGeneratedBy: []

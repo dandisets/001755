@@ -16,9 +16,10 @@ assetsSummary:
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: Yarotskyy, Viktor; Contois, Liangru; Hahn, Yun-Kyung ; Nass, Sara R; Knapp,
-  Pamela E; Hauser, Kurt F (2026) Novel voltage-dependent Cl− channels in striatal
-  medium spiny neurons are unrelated to ClC-1 or other known Ca2+-induced Cl− channel/transporter
-  types (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001755/draft
+  Pamela E; Hauser, Kurt F; National Institute on Drug Abuse (2026) Novel voltage-dependent
+  Cl− channels in striatal medium spiny neurons are unrelated to ClC-1 or other known
+  Ca2+-induced Cl− channel/transporter types (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001755/draft
 contributor:
 - affiliation: []
   awardNumber: R01DA060724, R21DA057153
@@ -96,11 +97,31 @@ contributor:
   - dcite:Author
   - dcite:Conceptualization
   schemaKey: Person
+- awardNumber: R01 DA057346, R01 DA045588, R01 DA060724, R21 DA057153, and K99 DA059324
+  identifier: https://ror.org/00fq5cm18
+  includeInCitation: true
+  name: National Institute on Drug Abuse
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://nida.nih.gov/
 dateCreated: '2026-02-24T13:50:19.270773+00:00'
-description: Novel voltage-dependent Cl- channels in striatal medium spiny neurons
-  previously identified as ClC-1-like channels are not related to skeletal muscle-specific
-  ClC-1 or other Cl- channels/transporters and, thus, represent a unique neuronal
-  Cl− channel of unknown identity
+description: 'Intracellular chloride (Cl−) homeostasis is a critical regulator of
+  neuronal excitability. Voltage-dependent neuronal Cl− channels remain the least
+  understood in terms of their role as a source of Cl− entry controlling excitability.
+  We have shown recently that striatal medium spiny neurons (MSNs) express a functional
+  Cl− conducting ClC-1-like channel with properties similar but not identical to native
+  ClC-1 channels (Yarotskyy, V., Lark, A.R.S., Nass S.R., Hahn, Y.K., Marone, M.G.,
+  McQuiston, A.R., Knapp, P.E., Hauser, K.F. (2022) Am. J. Physiol. Cell. Physiol.
+  322 (2022) C395-C409). Using a myotonic SWR/J-Clcn1adr-mto/J mouse model with a
+  premature stop codon for the ClC-1 channel rendering it non-functional, we demonstrate
+  that striatal MSNs isolated from wild type (wt) and homozygous mutant (adr) mouse
+  embryos have identical voltage-dependent outwardly rectifying Cl− currents. In contrast
+  and as expected, homozygous adr skeletal muscle flexor digitorum brevis (FDB) fibers
+  display nominal macroscopic Cl− currents compared to heterozygous wild-type adr
+  FDB fibers. Together, our findings demonstrate that the novel ClC-1-like channels
+  in MSNs are unrelated to skeletal muscle-specific ClC-1 channels, and therefore
+  represent a unique voltage-dependent neuronal Cl− channel of unknown identity. '
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
